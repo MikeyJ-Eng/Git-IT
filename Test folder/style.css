@@ -33,6 +33,7 @@ body {
 	font-family: "Rock Salt";
 	text-align: center;
 	font-size: 8px;
+	empty-cells: hide;
 }
 
 .table td {
@@ -47,18 +48,6 @@ body {
 
 .table tbody tr:nth-child(odd) {
 	background-color: #ff33cc;
-}
-
-
-tfoot {
-	padding: 12px 15px;
-	border: 1px solid rgb(23, 0, 128);
-	color: #ffffff;
-	background-image: url("https://cdn.glitch.me/8b1beacc-937c-4072-93d6-4ae825ab1a7a%2Fleopardskin.jpg"),
-		linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
-	font-family: "Rock Salt";
-	text-align: center;
-	font-size: 12px;
 }
 
 /*responsive*/
