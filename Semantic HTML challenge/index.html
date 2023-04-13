@@ -1,83 +1,92 @@
-<header id="header"> <!-- Allow CSS to target an ID (#) tag-->
-  <!-- import the webpage's stylesheet -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCG: Semantic HTML Challenge Task</title>
+      <!-- import the webpage's stylesheet -->
   <link rel="stylesheet" href="style.css">
+</head>
 
+<header id="header"> <!-- Allow CSS to target an ID (#) tag-->
   <title>TCG: Semantic HTML Challenge</title>
 </header>
 
 <!-- To do: The table width should fill any container it is put in-->
 
-
-<h1>HTML/CSS Table Challenge</h1>
-<br>
-<main id="content">
-  <p class="titles">
+<div>
+  <h1>HTML/CSS Table Challenge</h1>
+  <br>
+  <main id="content">
+    <table class="table">
+      <th class="titles">
       <td>BAND</td>
       <td>YEAR FORMED</td>
       <td>NO. OF ALBUMS</td>
       <td>MOST FAMOUS SONG</td>
-  </p>
+      </th>
+      <tr>
+        <td>Buzzcocks</td>
+        <td>1976</td>
+        <td>9</td>
+        <td>Ever fallen in love (with someone you shouldn't've)</td>
+      </tr>
+      <tr>
+        <td>The Clash</td>
+        <td>1976</td>
+        <td>6</td>
+        <td>London Calling</td>
+      </tr>
+      <tr>
+        <td>The Damned</td>
+        <td>1976</td>
+        <td>10</td>
+        <td>Smash it up</td>
+      </tr>
+      <tr>
+        <td>Sex Pistols</td>
+        <td>1975</td>
+        <td>1</td>
+        <td>Anarchy in the UK</td>
+      </tr>
+      <tr>
+        <td>Sham 69</td>
+        <td>1976</td>
+        <td>13</td>
+        <td>If The Kids Are United</td>
+      </tr>
+      <tr>
+        <td>Siouxaio and the Banshees</td>
+        <td>1976</td>
+        <td>11</td>
+        <td>Hong Kong Garden</td>
+      </tr>
+      <tr>
+        <td>Stiff Little Fingers</td>
+        <td>1977</td>
+        <td>10</td>
+        <td>Suspect Device</td>
+      </tr>
+      <tr>
+        <td>The Stranglers</td>
+        <td>1974</td>
+        <td>17</td>
+        <td>No More Heroes</td>
+      </tr>
+    </table>
 
-  <table class="table">
-    <tr>
-      <td>Buzzcocks</td>
-      <td>1976</td>
-      <td>9</td>
-      <td>Ever fallen in love (with someone you shouldn't've)</td>
-    </tr>
-    <tr>
-      <td>The Clash</td>
-      <td>1976</td>
-      <td>6</td>
-      <td>London Calling</td>
-    </tr>
-    <tr>
-      <td>The Damned</td>
-      <td>1976</td>
-      <td>10</td>
-      <td>Smash it up</td>
-    </tr>
-    <tr>
-      <td>Sex Pistols</td>
-      <td>1975</td>
-      <td>1</td>
-      <td>Anarchy in the UK</td>
-    </tr>
-    <tr>
-      <td>Sham 69</td>
-      <td>1976</td>
-      <td>13</td>
-      <td>If The Kids Are United</td>
-    </tr>
-    <tr>
-      <td>Siouxaio and the Banshees</td>
-      <td>1976</td>
-      <td>11</td>
-      <td>Hong Kong Garden</td>
-    </tr>
-    <tr>
-      <td>Stiff Little Fingers</td>
-      <td>1977</td>
-      <td>10</td>
-      <td>Suspect Device</td>
-    </tr>
-    <tr>
-      <td>The Stranglers</td>
-      <td>1974</td>
-      <td>17</td>
-      <td>No More Heroes</td>
-    </tr>
-  </table>
+    <mjTotals class="titles">
+      <tr>
+        <td> Total Albums </td>
+        <td> 77 </td>
+      </tr>
+    </mjTotals>
+    <br>
+    <mjFoot class="footer">
+      A summary of the UK's most famous punk bands
+    </mjFoot>
 
-  <mjTotals class="titles">
-    <tr>
-    <td> Total Albums </td>
-    <td> 77 </td>
-    </tr>
-  </mjTotals>
-<br>
-  <mjFoot class="footer">
-    A summary of the UK's most famous punk bands
-  </mjFoot>
+  </main>
+</div>
 
-</main>
+</html>

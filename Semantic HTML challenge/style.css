@@ -2,7 +2,8 @@
 #content {
     margin: 0px 5px 3px 0px;
     padding: 0px 5px 3px 0px;
-    width: 100%;
+    /* width: 100%;  */
+    width: 1000px;
     height: 700px;
     border: 2px solid purple;
   /*  font-size: 20px; */
@@ -21,12 +22,14 @@
     vertical-align: middle;
   }
   
+  /*
   td {
     border: 1px solid pink;
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
   }
+  */
   
   tr:nth-child(even) {
     background-color: #ff33cc;
@@ -37,10 +40,12 @@
   }
   
   .titles {
-    background-image: url("assets/leopardskin.jpg");
+    background-image: url("assets/leopardskin.jpg") linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
     font-family: "Rock Salt", cursive;
     color: white;
     text-align: right;
+    height: 200px;
+    width: 1000px;
       /* background-size: cover; */
   }
   
